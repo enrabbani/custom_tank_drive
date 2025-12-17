@@ -1,0 +1,93 @@
+* bootstrap_hbridge_irzl44n.cir
+* Conceptual N-MOSFET H-bridge with bootstrap high-side drive (LTspice)
+* Save this file next to a folder: ./models/IRLZ44N.spi  (your IRLZ44N subckt file)
+
+.include ./models/IRLZ44N.spi
+
+.param VBUS=24
+.param VDRV=12
+
+* Supplies
+Vbus VBUS 0 {VBUS}
+Vdrv VDRV 0 {VDRV}
+
+* Direction commands (0-5V logic)
+* FWD: on from 1ms to 4ms, period 10ms
+* REV: on from 5ms to 8ms, period 10ms
+VinF FWD 0 PULSE(0 5 1m 50n 50n 3m 10m)
+VinR REV 0 PULSE(0 5 5m 50n 50n 3m 10m)
+
+* Complements (for pull-down switch control)
+Bfwd_b FWD_B 0 V=5 - V(FWD)
+Brev_b REV_B 0 V=5 - V(REV)
+
+* Models
+.model SDRV SW(Ron=2 Roff=1e9 Vt=2.5 Vh=0.1)
+.model DBOOT D(Is=1n Rs=0.2 Cjo=20p Tt=20n)
+
+***********************
+* LEG A (switch node SWA)
+***********************
+* Bootstrap supply (VB_A is ~VSW + VDRV when charged)
+Dba VDRV VB_A DBOOT
+Cba VB_A SWA 220n
+
+* High-side gate driver: connect gate-drive node to VB_A when FWD=1
+S_HA  VB_A GHA_DRV FWD   0 SDRV
+* Pull gate-drive node to source (SWA) when FWD=0
+S_PDA GHA_DRV SWA   FWD_B 0 SDRV
+
+* Gate network
+RgHA  GHA_DRV GHA 10
+RgsHA GHA     SWA 100k
+
+* Low-side gate for Leg A: ON during REV window
+VgLA  GLA 0 PULSE(0 {VDRV} 5m 50n 50n 3m 10m)
+RgLA  GLA GLA_PIN 10
+RgsLA GLA_PIN 0 100k
+
+***********************
+* LEG B (switch node SWB)
+***********************
+DbB VDRV VB_B DBOOT
+CbB VB_B SWB 220n
+
+S_HB  VB_B GHB_DRV REV   0 SDRV
+S_PDB GHB_DRV SWB   REV_B 0 SDRV
+
+RgHB  GHB_DRV GHB 10
+RgsHB GHB     SWB 100k
+
+* Low-side gate for Leg B: ON during FWD window
+VgLB  GLB 0 PULSE(0 {VDRV} 1m 50n 50n 3m 10m)
+RgLB  GLB GLB_PIN 10
+RgsLB GLB_PIN 0 100k
+
+***********************
+* Power MOSFETs (IRLZ44N subckt pins: D G S)
+***********************
+* High-side A: D=VBUS, S=SWA
+XHA VBUS GHA SWA irlz44n
+* Low-side A:  D=SWA,  S=0
+XLA SWA  GLA_PIN 0   irlz44n
+
+* High-side B: D=VBUS, S=SWB
+XHB VBUS GHB SWB irlz44n
+* Low-side B:  D=SWB,  S=0
+XLB SWB  GLB_PIN 0   irlz44n
+
+***********************
+* "Motor" load between SWA and SWB (series R-L only)
+***********************
+Rload SWA Nload 1.14
+Lload Nload SWB 200u
+
+***********************
+* Sim
+***********************
+.tran 0 12m 0 200n
+.options plotwinsize=0
+
+* Helpful probes to plot:
+* V(SWA), V(SWB), V(GHA)-V(SWA), V(GHB)-V(SWB), I(Rload)
+.end
