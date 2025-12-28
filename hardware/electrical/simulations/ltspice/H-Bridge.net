@@ -1,0 +1,68 @@
+* C:\Users\mbes1\OneDrive\Desktop\custom_tank_drive\hardware\electrical\simulations\ltspice\H-Bridge.asc
+XM1 N009 N020 0 irlz44n
+XM2 N011 N018 0 irlz44n
+XM3 Vin N004 N009 irlz44n
+Q1 N001 N002 N005 0 BC547C
+Q2 N009 N002 N005 0 BC557C
+R2 N004 N005 10
+R3 N001 N002 2k
+C1 N001 N009 100n
+D1 12V N001 MBR20100CT
+Q3 N002 N010 N013 0 BC547C
+R1 N013 0 100
+R§10 N010 Vb_L 1k
+Q4 12V N019 N020 0 BC547C
+Q5 0 N019 N020 0 BC557C
+R5 N019 Vf 1k
+XM5 Vin N008 N011 irlz44n
+Q6 N003 N006 N007 0 BC547C
+Q7 N011 N006 N007 0 BC557C
+R6 N008 N007 10
+R7 N003 N006 2k
+C3 N003 N011 100n
+D2 12V N003 MBR20100CT
+Q8 N006 N014 N015 0 BC547C
+R8 N015 0 100
+R9 N014 Vf_L 2k
+Q9 12V N016 N017 0 BC547C
+Q10 0 N016 N017 0 BC557C
+R10 N016 Vb 1k
+V1 Vin 0 24
+V2 12V 0 12V
+V3 Vb 0 PULSE(0 12 {Vb_delay} 0.001u 0.001u {Vb_Ton} {Vperiod})
+V4 Vf 0 PULSE(0 12 {Vf_delay} 0.001u 0.001u {Vf_Ton} {Vperiod})
+R12 N018 N017 10
+R11 N012 N011 1.14
+V5 Vf_L 0 PULSE(12 0 0 0.001u 0.001u {Vf_Ton_L} {Vperiod})
+V6 Vb_L 0 PULSE(12 0 0 0.001u 0.001u {Vb_Ton_L} {Vperiod})
+L1 N012 N009 200µ
+.model D D
+.lib C:\Users\mbes1\AppData\Local\LTspice\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\mbes1\AppData\Local\LTspice\lib\cmp\standard.bjt
+.include ./models/IRLZ44N.spi
+.tran 5m
+* High Side Driver
+* High Side Driver
+* PWM input
+* PWM input
+* PWM input
+* PWM input
+* Low Side Driver
+* Low Side Driver
+* Motor
+.param Vf=0
+.param Vb=1
+* set Vf to 1 to move the motor "forwards"\nset Vb to 1 to move the motor "backwards"
+.param Vperiod=25u
+.param Vdutycycle=90
+.param Ton={Vperiod*Vdutycycle/100}
+.param Vf_Ton={Vf*Vperiod + (1-Vf)*(Vperiod-Ton)}
+.param Vf_Ton_L={Vf*Ton}
+.param Vb_Ton={Vb*Vperiod + (1-Vb)*(Vperiod-Ton)}
+.param Vb_Ton_L={Vb*Ton}
+.param Vf_delay={Vf*(0)+(1-Vf)*Ton}
+.param Vb_delay={Vb*(0)+(1-Vb)*Ton}
+.backanno
+.end

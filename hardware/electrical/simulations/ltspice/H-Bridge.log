@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\mbes1\OneDrive\Desktop\custom_tank_drive\hardware\electrical\simulations\ltspice\H-Bridge.asc
-Start Time: Sun Dec 21 04:57:39 2025
+Start Time: Sun Dec 28 14:05:38 2025
 solver = Normal
 Maximum thread count: 32
 tnom = 27
@@ -10,5 +10,5 @@ WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton fo
 Direct Newton iteration for .op point succeeded.
 Heightened Def Con from 0.000822502 to 0.000822502
 Heightened Def Con from 0.0010725 to 0.0010725
-Total elapsed time: 4.340 seconds.
+Total elapsed time: 5.818 seconds.
 
