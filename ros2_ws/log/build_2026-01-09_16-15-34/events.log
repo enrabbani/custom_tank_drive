@@ -1,0 +1,173 @@
+[0.000000] (-) TimerEvent: {}
+[0.000433] (robot_controller) JobQueued: {'identifier': 'robot_controller', 'dependencies': OrderedDict()}
+[0.000499] (robot_controller) JobStarted: {'identifier': 'robot_controller'}
+[0.007016] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'cmake'}
+[0.008925] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'build'}
+[0.010370] (robot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/creativecoder/ros2_project/ros2_ws/build/robot_controller', '--', '-j14', '-l14'], 'cwd': '/home/creativecoder/ros2_project/ros2_ws/build/robot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'creativecoder'), ('GIT_ASKPASS', '/home/creativecoder/.vscode-server/bin/94e8ae2b28cb5cc932b86e1070569c4463565c37/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/creativecoder'), ('OLDPWD', '/home/creativecoder/ros2_project'), ('TERM_PROGRAM_VERSION', '1.108.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7409bc0b-fcfd-43cc-87c3-609bac67ea80.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/creativecoder/.vscode-server/bin/94e8ae2b28cb5cc932b86e1070569c4463565c37/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/creativecoder/.vscode-server/bin/94e8ae2b28cb5cc932b86e1070569c4463565c37/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'creativecoder'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/468_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/creativecoder/.vscode-server/bin/94e8ae2b28cb5cc932b86e1070569c4463565c37/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/serio/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/serio/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/serio/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/serio/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/pros_cli-3.5.5-win-64bit:/mnt/c/Program Files/pros-toolchain-windows-formatted/usr:/snap/bin'), ('WT_SESSION', 'cf748967-e10a-41a3-91e7-867c48a3a9ca'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a15c6b57d6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/creativecoder/ros2_project/ros2_ws/build/robot_controller'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099124] (-) TimerEvent: {}
+[0.100508] (robot_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199307] (-) TimerEvent: {}
+[0.247447] (robot_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299595] (-) TimerEvent: {}
+[0.400106] (-) TimerEvent: {}
+[0.403075] (robot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.407536] (robot_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.420130] (robot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.440848] (robot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.461209] (robot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500321] (-) TimerEvent: {}
+[0.510907] (robot_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.513620] (robot_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600488] (-) TimerEvent: {}
+[0.701811] (-) TimerEvent: {}
+[0.802274] (-) TimerEvent: {}
+[0.903493] (-) TimerEvent: {}
+[1.004032] (-) TimerEvent: {}
+[1.104863] (-) TimerEvent: {}
+[1.205853] (-) TimerEvent: {}
+[1.306419] (-) TimerEvent: {}
+[1.407125] (-) TimerEvent: {}
+[1.507509] (-) TimerEvent: {}
+[1.607895] (-) TimerEvent: {}
+[1.708340] (-) TimerEvent: {}
+[1.808797] (-) TimerEvent: {}
+[1.909254] (-) TimerEvent: {}
+[2.009674] (-) TimerEvent: {}
+[2.110126] (-) TimerEvent: {}
+[2.210520] (-) TimerEvent: {}
+[2.310889] (-) TimerEvent: {}
+[2.411478] (-) TimerEvent: {}
+[2.511872] (-) TimerEvent: {}
+[2.612376] (-) TimerEvent: {}
+[2.712820] (-) TimerEvent: {}
+[2.813511] (-) TimerEvent: {}
+[2.914007] (-) TimerEvent: {}
+[3.014399] (-) TimerEvent: {}
+[3.108733] (robot_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.114583] (-) TimerEvent: {}
+[3.169617] (robot_controller) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[3.185611] (robot_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.214800] (-) TimerEvent: {}
+[3.249983] (robot_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.250346] (robot_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.250527] (robot_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.251918] (robot_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.252934] (robot_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.253013] (robot_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.253665] (robot_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.256052] (robot_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.272619] (robot_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[3.277413] (robot_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/creativecoder/ros2_project/ros2_ws/build/robot_controller\n'}
+[3.306395] (robot_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/base_controller_node.dir/src/base_controller.cpp.o\x1b[0m\n'}
+[3.306701] (robot_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/keyboard_teleop_node.dir/src/keyboard_teleop_node.cpp.o\x1b[0m\n'}
+[3.314986] (-) TimerEvent: {}
+[3.415712] (-) TimerEvent: {}
+[3.516388] (-) TimerEvent: {}
+[3.617070] (-) TimerEvent: {}
+[3.717697] (-) TimerEvent: {}
+[3.818262] (-) TimerEvent: {}
+[3.918833] (-) TimerEvent: {}
+[4.019390] (-) TimerEvent: {}
+[4.119894] (-) TimerEvent: {}
+[4.220444] (-) TimerEvent: {}
+[4.321014] (-) TimerEvent: {}
+[4.421616] (-) TimerEvent: {}
+[4.522155] (-) TimerEvent: {}
+[4.622802] (-) TimerEvent: {}
+[4.723558] (-) TimerEvent: {}
+[4.824276] (-) TimerEvent: {}
+[4.924794] (-) TimerEvent: {}
+[5.025441] (-) TimerEvent: {}
+[5.126393] (-) TimerEvent: {}
+[5.227282] (-) TimerEvent: {}
+[5.328048] (-) TimerEvent: {}
+[5.428937] (-) TimerEvent: {}
+[5.529565] (-) TimerEvent: {}
+[5.630391] (-) TimerEvent: {}
+[5.731138] (-) TimerEvent: {}
+[5.831959] (-) TimerEvent: {}
+[5.932534] (-) TimerEvent: {}
+[6.033310] (-) TimerEvent: {}
+[6.133731] (-) TimerEvent: {}
+[6.234446] (-) TimerEvent: {}
+[6.334967] (-) TimerEvent: {}
+[6.435379] (-) TimerEvent: {}
+[6.535913] (-) TimerEvent: {}
+[6.636391] (-) TimerEvent: {}
+[6.736772] (-) TimerEvent: {}
+[6.837264] (-) TimerEvent: {}
+[6.937748] (-) TimerEvent: {}
+[7.038730] (-) TimerEvent: {}
+[7.139515] (-) TimerEvent: {}
+[7.240417] (-) TimerEvent: {}
+[7.341145] (-) TimerEvent: {}
+[7.441848] (-) TimerEvent: {}
+[7.542695] (-) TimerEvent: {}
+[7.618346] (robot_controller) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable keyboard_teleop_node\x1b[0m\n'}
+[7.642949] (-) TimerEvent: {}
+[7.743491] (-) TimerEvent: {}
+[7.843985] (-) TimerEvent: {}
+[7.944605] (-) TimerEvent: {}
+[7.953109] (robot_controller) StdoutLine: {'line': b'[ 75%] Built target keyboard_teleop_node\n'}
+[8.044803] (-) TimerEvent: {}
+[8.145344] (-) TimerEvent: {}
+[8.246200] (-) TimerEvent: {}
+[8.347009] (-) TimerEvent: {}
+[8.447629] (-) TimerEvent: {}
+[8.548329] (-) TimerEvent: {}
+[8.649045] (-) TimerEvent: {}
+[8.749776] (-) TimerEvent: {}
+[8.850527] (-) TimerEvent: {}
+[8.951337] (-) TimerEvent: {}
+[9.052117] (-) TimerEvent: {}
+[9.152812] (-) TimerEvent: {}
+[9.253681] (-) TimerEvent: {}
+[9.354340] (-) TimerEvent: {}
+[9.455070] (-) TimerEvent: {}
+[9.555897] (-) TimerEvent: {}
+[9.656760] (-) TimerEvent: {}
+[9.757700] (-) TimerEvent: {}
+[9.858562] (-) TimerEvent: {}
+[9.959354] (-) TimerEvent: {}
+[10.060119] (-) TimerEvent: {}
+[10.160828] (-) TimerEvent: {}
+[10.261525] (-) TimerEvent: {}
+[10.362391] (-) TimerEvent: {}
+[10.463228] (-) TimerEvent: {}
+[10.563953] (-) TimerEvent: {}
+[10.664677] (-) TimerEvent: {}
+[10.765343] (-) TimerEvent: {}
+[10.865818] (-) TimerEvent: {}
+[10.966403] (-) TimerEvent: {}
+[11.016558] (robot_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable base_controller_node\x1b[0m\n'}
+[11.066561] (-) TimerEvent: {}
+[11.167152] (-) TimerEvent: {}
+[11.267576] (-) TimerEvent: {}
+[11.346136] (robot_controller) StdoutLine: {'line': b'[100%] Built target base_controller_node\n'}
+[11.356873] (robot_controller) CommandEnded: {'returncode': 0}
+[11.359009] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'install'}
+[11.368241] (robot_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/creativecoder/ros2_project/ros2_ws/build/robot_controller'], 'cwd': '/home/creativecoder/ros2_project/ros2_ws/build/robot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'creativecoder'), ('GIT_ASKPASS', '/home/creativecoder/.vscode-server/bin/94e8ae2b28cb5cc932b86e1070569c4463565c37/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/creativecoder'), ('OLDPWD', '/home/creativecoder/ros2_project'), ('TERM_PROGRAM_VERSION', '1.108.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7409bc0b-fcfd-43cc-87c3-609bac67ea80.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/creativecoder/.vscode-server/bin/94e8ae2b28cb5cc932b86e1070569c4463565c37/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/creativecoder/.vscode-server/bin/94e8ae2b28cb5cc932b86e1070569c4463565c37/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'creativecoder'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/468_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/creativecoder/.vscode-server/bin/94e8ae2b28cb5cc932b86e1070569c4463565c37/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/serio/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/serio/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/serio/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/serio/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/pros_cli-3.5.5-win-64bit:/mnt/c/Program Files/pros-toolchain-windows-formatted/usr:/snap/bin'), ('WT_SESSION', 'cf748967-e10a-41a3-91e7-867c48a3a9ca'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a15c6b57d6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/creativecoder/ros2_project/ros2_ws/build/robot_controller'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.369975] (-) TimerEvent: {}
+[11.378167] (robot_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.379903] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/lib/robot_controller/keyboard_teleop_node\n'}
+[11.381805] (robot_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/creativecoder/ros2_project/ros2_ws/install/robot_controller/lib/robot_controller/keyboard_teleop_node" to ""\n'}
+[11.382130] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/lib/robot_controller/base_controller_node\n'}
+[11.385277] (robot_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/creativecoder/ros2_project/ros2_ws/install/robot_controller/lib/robot_controller/base_controller_node" to ""\n'}
+[11.385492] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller\n'}
+[11.385841] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller\n'}
+[11.386009] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh\n'}
+[11.386048] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv\n'}
+[11.386449] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/environment/path.sh\n'}
+[11.386528] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/environment/path.dsv\n'}
+[11.386850] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/local_setup.bash\n'}
+[11.386912] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/local_setup.sh\n'}
+[11.387076] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/local_setup.zsh\n'}
+[11.387512] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/local_setup.dsv\n'}
+[11.388009] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/package.dsv\n'}
+[11.388264] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/ament_index/resource_index/packages/robot_controller\n'}
+[11.388475] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake\n'}
+[11.388524] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake\n'}
+[11.388554] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/package.xml\n'}
+[11.392639] (robot_controller) CommandEnded: {'returncode': 0}
+[11.420721] (robot_controller) JobEnded: {'identifier': 'robot_controller', 'rc': 0}
+[11.422680] (-) EventReactorShutdown: {}

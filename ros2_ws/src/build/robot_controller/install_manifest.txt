@@ -1,0 +1,15 @@
+/home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+/home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+/home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+/home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+/home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/environment/path.sh
+/home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/environment/path.dsv
+/home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/local_setup.bash
+/home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/local_setup.sh
+/home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/local_setup.zsh
+/home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/local_setup.dsv
+/home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/package.dsv
+/home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+/home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+/home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+/home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/package.xml

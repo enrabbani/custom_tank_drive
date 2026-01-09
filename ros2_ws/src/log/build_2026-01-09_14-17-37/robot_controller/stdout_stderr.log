@@ -1,0 +1,33 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/creativecoder/ros2_project/ros2_ws/src/build/robot_controller
+-- Install configuration: ""
+-- Installing: /home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+-- Installing: /home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+-- Installing: /home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+-- Installing: /home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/environment/path.sh
+-- Installing: /home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/environment/path.dsv
+-- Installing: /home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/local_setup.bash
+-- Installing: /home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/local_setup.sh
+-- Installing: /home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/local_setup.zsh
+-- Installing: /home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/local_setup.dsv
+-- Installing: /home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/package.dsv
+-- Installing: /home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+-- Installing: /home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+-- Installing: /home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+-- Installing: /home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller/share/robot_controller/package.xml

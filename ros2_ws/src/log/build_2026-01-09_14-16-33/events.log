@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.001152] (robot_controller) JobQueued: {'identifier': 'robot_controller', 'dependencies': OrderedDict()}
+[0.001794] (robot_controller) JobStarted: {'identifier': 'robot_controller'}
+[0.013324] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'cmake'}
+[0.015628] (robot_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/creativecoder/ros2_project/ros2_ws/src/robot_controller', '-DCMAKE_INSTALL_PREFIX=/home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller'], 'cwd': '/home/creativecoder/ros2_project/ros2_ws/src/build/robot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'creativecoder'), ('GIT_ASKPASS', '/home/creativecoder/.vscode-server/bin/94e8ae2b28cb5cc932b86e1070569c4463565c37/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/creativecoder'), ('OLDPWD', '/home/creativecoder/ros2_project/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.108.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-820ed52e-75a3-4613-a2e9-07168f88cab3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/creativecoder/.vscode-server/bin/94e8ae2b28cb5cc932b86e1070569c4463565c37/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/creativecoder/.vscode-server/bin/94e8ae2b28cb5cc932b86e1070569c4463565c37/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'creativecoder'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/468_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/creativecoder/.vscode-server/bin/94e8ae2b28cb5cc932b86e1070569c4463565c37/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/serio/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/serio/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/serio/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/serio/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/pros_cli-3.5.5-win-64bit:/mnt/c/Program Files/pros-toolchain-windows-formatted/usr:/snap/bin'), ('WT_SESSION', 'cf748967-e10a-41a3-91e7-867c48a3a9ca'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a15c6b57d6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/creativecoder/ros2_project/ros2_ws/src/build/robot_controller'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.099330] (-) TimerEvent: {}
+[0.199785] (-) TimerEvent: {}
+[0.212436] (robot_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.301722] (-) TimerEvent: {}
+[0.402242] (-) TimerEvent: {}
+[0.488358] (robot_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.502589] (-) TimerEvent: {}
+[0.605425] (-) TimerEvent: {}
+[0.645097] (robot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.705712] (-) TimerEvent: {}
+[0.747075] (robot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.752732] (robot_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.753736] (robot_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.754942] (robot_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.758903] (robot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.806829] (-) TimerEvent: {}
+[0.859089] (robot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.864970] (robot_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.865213] (robot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.865448] (robot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.878057] (robot_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.906998] (-) TimerEvent: {}
+[0.991259] (robot_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.007397] (-) TimerEvent: {}
+[1.087593] (robot_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.107804] (-) TimerEvent: {}
+[1.209932] (-) TimerEvent: {}
+[1.211767] (robot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.218046] (robot_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.229825] (robot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.247949] (robot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.267186] (robot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.312128] (-) TimerEvent: {}
+[1.339056] (robot_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.342010] (robot_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.413718] (-) TimerEvent: {}
+[1.516473] (-) TimerEvent: {}
+[1.619171] (-) TimerEvent: {}
+[1.721905] (-) TimerEvent: {}
+[1.822749] (-) TimerEvent: {}
+[1.923202] (-) TimerEvent: {}
+[1.980442] (robot_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.023561] (-) TimerEvent: {}
+[2.124013] (-) TimerEvent: {}
+[2.224480] (-) TimerEvent: {}
+[2.325657] (-) TimerEvent: {}
+[2.426158] (-) TimerEvent: {}
+[2.526581] (-) TimerEvent: {}
+[2.579294] (robot_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.628836] (-) TimerEvent: {}
+[2.729338] (-) TimerEvent: {}
+[2.830004] (-) TimerEvent: {}
+[2.930738] (-) TimerEvent: {}
+[3.031661] (-) TimerEvent: {}
+[3.136783] (-) TimerEvent: {}
+[3.237620] (-) TimerEvent: {}
+[3.338556] (-) TimerEvent: {}
+[3.441798] (-) TimerEvent: {}
+[3.542591] (-) TimerEvent: {}
+[3.641562] (robot_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.642696] (-) TimerEvent: {}
+[3.654012] (robot_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.738562] (robot_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.738828] (robot_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.742831] (-) TimerEvent: {}
+[3.812111] (robot_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.812783] (robot_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.843576] (-) TimerEvent: {}
+[3.869535] (robot_controller) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[3.883583] (robot_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.917695] (robot_controller) StderrLine: {'line': b"Error parsing '/home/creativecoder/ros2_project/ros2_ws/src/robot_controller/package.xml':\n"}
+[3.944166] (-) TimerEvent: {}
+[3.973827] (robot_controller) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.973979] (robot_controller) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[3.974428] (robot_controller) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[3.974520] (robot_controller) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString\n'}
+[3.975202] (robot_controller) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[3.975257] (robot_controller) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[3.975816] (robot_controller) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[3.975877] (robot_controller) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[3.975976] (robot_controller) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[3.976040] (robot_controller) StderrLine: {'line': b'xml.parsers.expat.ExpatError: mismatched tag: line 21, column 2\n'}
+[3.976094] (robot_controller) StderrLine: {'line': b'\n'}
+[3.976153] (robot_controller) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[3.976204] (robot_controller) StderrLine: {'line': b'\n'}
+[3.976305] (robot_controller) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.976335] (robot_controller) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[3.976362] (robot_controller) StderrLine: {'line': b'    main()\n'}
+[3.976386] (robot_controller) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[3.976411] (robot_controller) StderrLine: {'line': b'    raise e\n'}
+[3.976434] (robot_controller) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[3.976465] (robot_controller) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[3.976487] (robot_controller) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[3.976510] (robot_controller) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[3.976533] (robot_controller) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/creativecoder/ros2_project/ros2_ws/src/robot_controller/package.xml':\n"}
+[3.976560] (robot_controller) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[3.976581] (robot_controller) StderrLine: {'line': b'mismatched tag: line 21, column 2\n'}
+[3.990908] (robot_controller) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[3.991095] (robot_controller) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[3.991256] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[3.991381] (robot_controller) StderrLine: {'line': b'  /home/creativecoder/ros2_project/ros2_ws/src/robot_controller/package.xml\n'}
+[3.991441] (robot_controller) StderrLine: {'line': b'  /home/creativecoder/ros2_project/ros2_ws/src/build/robot_controller/ament_cmake_core/package.cmake)\n'}
+[3.991491] (robot_controller) StderrLine: {'line': b'  returned error code 1\n'}
+[3.991537] (robot_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.991581] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[3.991625] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[3.991668] (robot_controller) StderrLine: {'line': b'  CMakeLists.txt:22 (ament_lint_auto_find_test_dependencies)\n'}
+[3.991720] (robot_controller) StderrLine: {'line': b'\n'}
+[3.991762] (robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[3.991801] (robot_controller) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.991856] (robot_controller) StdoutLine: {'line': b'See also "/home/creativecoder/ros2_project/ros2_ws/src/build/robot_controller/CMakeFiles/CMakeOutput.log".\n'}
+[3.998897] (robot_controller) CommandEnded: {'returncode': 1}
+[3.999744] (robot_controller) JobEnded: {'identifier': 'robot_controller', 'rc': 1}
+[4.010597] (-) EventReactorShutdown: {}
