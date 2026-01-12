@@ -1,0 +1,14 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# OS files
+#.DS_Store
+#Thumbs.db
+
+# Optional editor files
+#*.swp
+#*#.swo
+#.vscode/
+#.idea/

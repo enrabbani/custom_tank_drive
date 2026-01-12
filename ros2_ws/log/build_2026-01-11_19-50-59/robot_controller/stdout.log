@@ -1,6 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target keyboard_teleop_node[0m
-[35m[1mConsolidate compiler generated dependencies of target base_controller_node[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/keyboard_teleop_node.dir/src/keyboard_teleop_node.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/base_controller_node.dir/src/base_controller.cpp.o[0m
-[ 75%] [32m[1mLinking CXX executable base_controller_node[0m
-[ 75%] Built target base_controller_node
