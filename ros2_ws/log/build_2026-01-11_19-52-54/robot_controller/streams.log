@@ -1,0 +1,30 @@
+[0.020s] Invoking command in '/home/creativecoder/ros2_project/ros2_ws/build/robot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/creativecoder/ros2_project/ros2_ws/build/robot_controller -- -j14 -l14
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target keyboard_teleop_node[0m
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target base_controller_node[0m
+[0.104s] [ 50%] Built target base_controller_node
+[0.108s] [ 75%] [32mBuilding CXX object CMakeFiles/keyboard_teleop_node.dir/src/keyboard_teleop_node.cpp.o[0m
+[5.629s] [100%] [32m[1mLinking CXX executable keyboard_teleop_node[0m
+[5.931s] [100%] Built target keyboard_teleop_node
+[5.954s] Invoked command in '/home/creativecoder/ros2_project/ros2_ws/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/creativecoder/ros2_project/ros2_ws/build/robot_controller -- -j14 -l14
+[6.005s] Invoking command in '/home/creativecoder/ros2_project/ros2_ws/build/robot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/creativecoder/ros2_project/ros2_ws/build/robot_controller
+[6.036s] -- Install configuration: ""
+[6.038s] -- Installing: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/lib/robot_controller/keyboard_teleop_node
+[6.067s] -- Set runtime path of "/home/creativecoder/ros2_project/ros2_ws/install/robot_controller/lib/robot_controller/keyboard_teleop_node" to ""
+[6.068s] -- Installing: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/lib/robot_controller/base_controller_node
+[6.133s] -- Set runtime path of "/home/creativecoder/ros2_project/ros2_ws/install/robot_controller/lib/robot_controller/base_controller_node" to ""
+[6.134s] -- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+[6.134s] -- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+[6.134s] -- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+[6.134s] -- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+[6.134s] -- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/environment/path.sh
+[6.134s] -- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/environment/path.dsv
+[6.134s] -- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/local_setup.bash
+[6.134s] -- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/local_setup.sh
+[6.134s] -- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/local_setup.zsh
+[6.134s] -- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/local_setup.dsv
+[6.134s] -- Installing: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/package.dsv
+[6.135s] -- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+[6.135s] -- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+[6.135s] -- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+[6.135s] -- Up-to-date: /home/creativecoder/ros2_project/ros2_ws/install/robot_controller/share/robot_controller/package.xml
+[6.138s] Invoked command in '/home/creativecoder/ros2_project/ros2_ws/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/creativecoder/ros2_project/ros2_ws/build/robot_controller

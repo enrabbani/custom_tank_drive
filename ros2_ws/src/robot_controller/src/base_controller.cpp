@@ -10,16 +10,16 @@ class BaseController : public rclcpp::Node
     BaseController()
     : Node("base_controller")
     {
-      subscription_ = this->create_subscription<std_msgs::msg::String>(
-      "topic", 10, std::bind(&BaseController::topic_callback, this, _1));
+      subscription_ = this->create_subscription<geometry_msgs::msg::Twist>(
+      "/cmd_vel", 10, std::bind(&BaseController::topic_callback, this, _1));
     }
 
   private:
-    void topic_callback(const std_msgs::msg::String & msg) const
+    void topic_callback(const geometry_msgs::msg::Twist & msg) const
     {
-      RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg.data.c_str());
+      RCLCPP_INFO(this->get_logger(), "I heard: linear.x=%.2f angular.z=%.2f", msg.linear.x, msg.angular.z);
     }
-    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+    rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr subscription_;
 };
 
 int main(int argc, char * argv[])
