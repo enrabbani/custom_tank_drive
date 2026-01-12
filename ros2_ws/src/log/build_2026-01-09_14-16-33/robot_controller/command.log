@@ -1,2 +1,0 @@
-Invoking command in '/home/creativecoder/ros2_project/ros2_ws/src/build/robot_controller': /usr/bin/cmake /home/creativecoder/ros2_project/ros2_ws/src/robot_controller -DCMAKE_INSTALL_PREFIX=/home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller
-Invoked command in '/home/creativecoder/ros2_project/ros2_ws/src/build/robot_controller' returned '1': /usr/bin/cmake /home/creativecoder/ros2_project/ros2_ws/src/robot_controller -DCMAKE_INSTALL_PREFIX=/home/creativecoder/ros2_project/ros2_ws/src/install/robot_controller
