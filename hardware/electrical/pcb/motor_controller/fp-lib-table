@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "IRLZ44N")(type "KiCad")(uri "${KIPRJMOD}/IRLZ44N.pretty")(options "")(descr ""))
+)
